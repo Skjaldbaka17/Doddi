@@ -35,8 +35,8 @@ app.use(notFoundHandler);
 app.use(errorHandler);
 
 
-app.listen(app.get('port'), () => {
-  console.log(`Server running at http://localhost:${app.get('port')}/`);
+app.listen(app.get('port'), function() {
+  console.log('Node app is running on port', app.get('port'));
 });
 
 

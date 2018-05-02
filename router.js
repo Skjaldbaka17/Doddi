@@ -1,8 +1,6 @@
 const express = require('express');
 const router = express.Router();
 
-
-
 async function home(req, res){
     res.render('home');
 }
