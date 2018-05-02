@@ -11,6 +11,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
+app.set('port', (process.env.PORT || 5000));
+
 app.use('/', router);
 
 //Ef síðan er ekki til.
@@ -33,13 +35,10 @@ app.use(notFoundHandler);
 app.use(errorHandler);
 
 
-
-const hostname = 'localhost';
-const port = 4000;
-
-app.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
+app.listen(app.get('port'), () => {
+  console.log(`Server running at http://localhost:${app.get('port')}/`);
 });
+
 
 
 
