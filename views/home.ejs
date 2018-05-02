@@ -1,0 +1,48 @@
+<%- include('header') -%>
+
+    <nav id="nav">
+        <a class="navStuff" href="#">Vörur</a>
+        <a class="navStuff" href="#">Tilboð</a>
+        <a class="navStuff" href="#">Áskrift</a>
+    </nav>
+
+    <div id="mainStuff">
+        <div id="left">
+                <ul>
+                    <li><input type="checkbox" class="checkbox-round" checked="true"> Allt</li>
+                    <li><input type="checkbox" class="checkbox-round"> Vegan</li>
+                    <li><input type="checkbox" class="checkbox-round"> Hollt</li>
+                    <li><input type="checkbox" class="checkbox-round"> Óhollt</li>
+                </ul>
+        </div>
+        <div id="middle">
+            <div class="selectdiv">
+                <label>
+                <select name="" id="">
+                    <option disabled selected value>Raða eftir: </option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+            </label>
+            </div>
+            <div id="products">
+            </div>
+        </div>
+        <div id="right"></div>
+    </div>
+
+
+    <script>
+            $("a").click(function() {
+       $(".active").removeClass("active");
+       $(this).addClass("active");
+   });
+       
+           
+       </script>
+
+
+<%-include('footer')-%>

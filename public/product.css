@@ -1,0 +1,99 @@
+#productInfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5% 10%;
+    grid-gap: 10%;
+}
+
+#ingr ul{
+    list-style-type: none;
+    border: solid;
+    padding: 0;
+}
+
+#ingr ul li{
+    margin: 15px 0 15px 1%; 
+}
+
+#order select{
+    font-size: 20px;
+    width: 75px;
+}
+
+#order label{
+    margin: 0 0 0 5%;
+    font-size: 20px;
+}
+
+#bookButtonContainer{
+    margin-top: 5%;
+    display: flex;
+
+}
+
+.confirmButtons{
+    white-space: nowrap;
+    width: 120px;
+    font-size: 25px;
+    border: solid;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 2px 2px #666;
+}
+
+.confirmButtons:hover{
+    background-color: gray;
+}
+
+.confirmButtons:active {
+    background-color: darkgray;
+    box-shadow: 1px 3px #666;
+    transform: translateY(4px);
+  }
+
+  #bookButton{
+    text-align: center;
+    padding: 5px 10px;
+}
+
+/*.selectdiv2 {
+    position: relative;
+  }
+  
+  .selectdiv2:after {
+      content: '\f078';
+      font: normal normal normal 17px/1 FontAwesome;
+      left: 75px;
+      top: 20px;
+      position: absolute;
+      pointer-events: none;
+  }
+  
+  /* IE11 hide native button (thanks Matt!) */
+  /*select2::-ms-expand {
+  display: none;
+  }
+  
+  .selectdiv2 select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* Add some styling */
+   /* width: 100px;
+    display: block;
+    max-width: 320px;
+    height: 50px;
+    margin: 5px 0px;
+    padding: 0px 24px;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #333;
+    background-color: #ffffff;
+    background-image: none;
+    border-radius: 0;
+    border: 1px solid;
+    -ms-word-break: normal;
+    word-break: normal;
+  }*/
+

@@ -1,0 +1,18 @@
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr 1fr;
+}
+
+header > div{
+    border: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#shoppingCart i{
+    font-size: 80px;
+    color: black;
+}

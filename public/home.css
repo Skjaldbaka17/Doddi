@@ -1,0 +1,124 @@
+#nav {
+    margin: 0 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+}
+
+#nav a{
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    text-decoration:  none;
+    font-weight:      bold;
+    font-size: 20px;
+    text-align: center;
+    border: solid;
+    box-sizing: border-box;
+    padding: 5px 20px;
+    width: 20%;
+}
+
+#nav a:hover{
+    background-color: gray;
+}
+
+.active{
+    background-color: gray;
+}
+
+#mainStuff{
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+}
+
+#left ul{
+    margin:0;
+  list-style: none;
+  position: relative;
+  left:-25%;
+}
+
+#left ul li{
+    margin: 20px 0;
+}
+
+#left{
+    border: solid;
+    padding: 0;
+    display: flex;
+}
+
+.checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+.checkbox-round:checked {
+    background-color: gray;
+}
+
+#middle{
+    display: flex;
+    flex-direction: column;
+}
+
+#middle #select{
+    display: flex;
+    justify-content: flex-end;
+    border: solid;
+}
+
+.selectdiv {
+    position: relative;
+  }
+  
+  .selectdiv:after {
+      content: '\f078';
+      font: normal normal normal 17px/1 FontAwesome;
+      right: 11px;
+      top: 6px;
+      height: 34px;
+      padding: 15px 0px 0px 8px;
+      position: absolute;
+      pointer-events: none;
+  }
+  
+  /* IE11 hide native button (thanks Matt!) */
+  select::-ms-expand {
+  display: none;
+  }
+  
+  .selectdiv select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* Add some styling */
+    
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    height: 50px;
+    float: right;
+    margin: 5px 0px;
+    padding: 0px 24px;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #333;
+    background-color: #ffffff;
+    background-image: none;
+    border-radius: 0;
+    border: 1px solid;
+    -ms-word-break: normal;
+    word-break: normal;
+  }
+
+
+
+

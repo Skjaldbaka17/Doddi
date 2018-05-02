@@ -1,0 +1,17 @@
+{
+  "name": "doddi",
+  "version": "1.0.0",
+  "description": "Möns",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app"
+  },
+  "author": "Þórður Ágústsson",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "util": "^0.10.3"
+  }
+}
