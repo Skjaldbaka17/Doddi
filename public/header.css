@@ -2,11 +2,18 @@
 
 header{
     display: grid;
-    grid-template-columns: 1fr 5fr 1fr 1fr;
+    grid-template-columns: 1fr 5fr  1fr 1fr 1fr;
+    width: 100%;
+    background-color: white;
+    opacity: 0.8;
+    transition: all 1s;
+}
+
+header:hover{
+    opacity: 0.9;
 }
 
 header > div{
-    border: solid;
     display: flex;
     justify-content: center;
     align-items: center;

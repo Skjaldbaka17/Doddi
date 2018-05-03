@@ -1,12 +1,50 @@
 <%- include('header') -%>
 
-    <nav id="nav">
-        <a class="navStuff" href="#">Vörur</a>
-        <a class="navStuff" href="#">Tilboð</a>
-        <a class="navStuff" href="#">Áskrift</a>
-    </nav>
+    <div id="nav">
+        <div id="productNav" class="navItem">
+            <div class="borderColor red"></div>
+            <div class="info">
+                <h2>Vörur</h2>
+                <p>Eitthvað Sull</p>
+                <a href="#" class="navStuff red" style="background-color:#f45f42">
+                    <div class="link">
+                        <h3>Skoða Vörur</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="borderColor red"></div> 
+        </div>
 
-    <div id="mainStuff">
+        <div id="offerNav" class="navItem">
+            <div class="borderColor blue"></div>
+            <div class="info">
+                <h2>Tilboð</h2>
+                <p>Eitthvað Sull</p>
+                <a href="#" class="navStuff blue">
+                    <div class="link">
+                        <h3>Skoða tilboð</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="borderColor blue"></div>
+        </div>
+
+        <div id="subNav" class="navItem">
+            <div class="borderColor green"></div>
+            <div class="info">
+                <h2>Áskrift</h2>
+                <p>Eitthvað Sull</p>
+                <a href="#" class="navStuff green">
+                    <div class="link">
+                        <h3>Skoða áskrift</h3>
+                    </div> 
+                </a>
+            </div>
+            <div class="borderColor green"></div>
+        </div> 
+    </div>
+
+    <div id="mainStuff" style="display:none">
         <div id="left">
                 <ul>
                     <li><input type="checkbox" class="checkbox-round" checked="true"> Allt</li>
